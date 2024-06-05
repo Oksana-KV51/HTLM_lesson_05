@@ -1,0 +1,46 @@
+.container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            #justify-content: space-between; /* Распределяет блоки равномерно с пространством между ними */
+ }
+.card{
+   width: 400px;
+   height: 650px;
+   background-color: burlywood;
+   border-radius: 60px;
+   transition: 1s;
+}
+
+.photo {
+   height: 50%;
+   display: flex;
+   align-items: center;
+}
+.info {
+   padding: 40px;
+   height: 40%;
+}
+h1 {
+    text-align: center;
+}
+.text {
+   font-size: 120%;
+}
+
+img {
+   position: relative;
+   left:17%;
+   border-radius: 20px;
+}
+
+.card:hover {
+    background-color: #90EE90;
+    width: 450px;
+    height: 700px;
+    # добавляем свойство для плавности:
+    transition: 1s;
+}
+.fl {
+    flex-direction: row;
+}

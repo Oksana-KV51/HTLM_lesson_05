@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Мои любимые блюда{% endblock %}
+
+{% block content %}
+    <!-- Секция 2: Карточки -->
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../static/image/001.jpg" class="card-img-top" alt="Картошка в беконе" title="Это Картошка в беконе">
+                    <div class="card-body">
+                        <h5 class="card-title">Картошка в беконе</h5>
+                        <p class="card-text">Ингредиенты: картошка, бекон, Ваши любимые приправы </p>
+                        <a href="#" class="btn btn-primary">Приготовление</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../static/image/002.jpg" class="card-img-top" alt="Гороховый суп с ребрышками" title="Это Гороховый суп с ребрышками">
+                    <div class="card-body">
+                        <h5 class="card-title">Гороховый суп с ребрышками</h5>
+                        <p class="card-text">Ингредиенты: ребрышки копченые, горох, картошка, лук репчатый, морковь, плавленый сырок, укроп</p>
+                        <a href="#" class="btn btn-primary">Приготовление</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../static/image/003.jpg" class="card-img-top" alt="Намазка из тунца и яйца " title="Это Намазка из тунца и яйца ">
+                    <div class="card-body">
+                        <h5 class="card-title">Намазка из тунца и яйца</h5>
+                        <p class="card-text">Ингредиенты: тунец консервированный - 150г., сыр творожный - 100 г., яйцо - 2 шт., зелень </p>
+                        <a href="#" class="btn btn-primary">Приготовление</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}

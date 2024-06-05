@@ -1,0 +1,48 @@
+ {% extends "base.html" %}
+
+ {% block title %}About - Мои любимые блюда{% endblock %}
+
+ {% block content %}
+    <!-- Секция 3: Аккордеон -->
+        <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Картошка в беконе
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Приготовление: Картошку почистить, отварить до полуготовности. Слить воду. Добавить любимые приправы.
+                        Каждую картофелину обернуть беконом и насадить на шпажку. Завернуть шпажку с картофелем в фольгу и отправить в духовку при 180 градусов на 20 мин. При подаче посыпать свежей зеленью.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Гороховый суп с ребрышками
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Приготовление: В кастрюлю с водой отправляем ребрышки и целую луковицу. После закипания воды добавляем горох и варим его 20 минут. Картошку нарезаем и отправляем в кастрюли и варим после закипания до готовности.
+                        Делаем зажарку (лук, морковь) и отправляем в наш супчик. Для более сливочного вкуса я добавила плавленный сырок нарезанный кубиками.  Посыпаем все укропом. И после того как сырок растворится наш сливочный суп с копченостями готов.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Намазка из тунца и яйца
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Приготовление: Яйца сварить, очистить. Добавить творожный сыр ,консервированный тунец в собственном соку, зелень.
+                        Хлеб лучше выбирать цельнозерной
+                    </div>
+                </div>
+            </div>
+        </div>
+ {% endblock %}
